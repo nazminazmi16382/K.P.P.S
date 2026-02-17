@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K.P.P.S | Komunitas Pembasmi PDF Sosial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #450a0a 0%, #dc2626 48%, #ffffff 52%, #f1f5f9 100%);
+            background-attachment: fixed;
+            min-height: 100vh;
+            font-family: 'Poppins', sans-serif;
+            color: #1e293b;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 50px 20px;
+        }
+
+        .glass-container {
+            width: 100%;
+            max-width: 900px;
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            border-radius: 40px;
+            padding: 50px 30px;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+            text-align: center;
+        }
+
+        .header-image img {
+            width: 180px; 
+            height: auto;
+            border-radius: 25px;
+            border: 4px solid white;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            transition: 0.3s;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3.5rem;
+            font-weight: 900;
+            color: #7f1d1d;
+            letter-spacing: -2px;
+        }
+
+        .subtitle {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: #450a0a;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin-bottom: 40px;
+        }
+
+        .edu-box {
+            background: rgba(255, 255, 255, 0.7);
+            border-left: 6px solid #dc2626;
+            padding: 25px;
+            border-radius: 20px;
+            text-align: left;
+            margin-bottom: 40px;
+        }
+
+        .mission-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.5);
+            padding: 25px;
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            text-align: left;
+        }
+
+        /* Container Tombol */
+        .action-area {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        /* Styling Tombol Umum */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            width: 100%;
+            max-width: 350px;
+            padding: 16px 30px;
+            border-radius: 50px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            text-decoration: none;
+            transition: 0.3s;
+            color: white;
+        }
+
+        /* Tombol WhatsApp */
+        .btn-wa {
+            background: #25d366;
+            box-shadow: 0 10px 20px rgba(37, 211, 102, 0.2);
+        }
+
+        .btn-wa:hover {
+            background: #128c7e;
+            transform: translateY(-3px);
+        }
+
+        /* Tombol TikTok */
+        .btn-tiktok {
+            background: #000000;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-tiktok:hover {
+            background: #252525;
+            transform: translateY(-3px);
+        }
+
+        .social-label {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: #7f1d1d;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            .header-image img { width: 140px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="glass-container">
+        <div class="header-image">
+            <img src="photo.jpg" alt="Logo K.P.P.S">
+        </div>
+
+        <h1>K.P.P.S</h1>
+        <p class="subtitle">Komunitas Pembasmi PDF Sosial</p>
+        
+        <div class="edu-box">
+            <h2>⚠️ STOP PELECEHAN ANAK</h2>
+            <p>Edukasi adalah kunci. Mari lindungi masa depan anak bangsa dari segala bentuk kekerasan dan pelecehan sosial. <b>K.P.P.S</b> bergerak untuk keamanan digital dan sosial.</p>
+        </div>
+
+        <div class="mission-grid">
+            <div class="card">
+                <h3>Vigilance</h3>
+                <p>Mengawasi konten negatif yang merusak tatanan sosial di dunia digital.</p>
+            </div>
+            <div class="card">
+                <h3>Elimination</h3>
+                <p>Memberantas predator sosial melalui edukasi dan tindakan preventif.</p>
+            </div>
+            <div class="card">
+                <h3>Protection</h3>
+                <p>Menjadi garda terdepan pelindung masyarakat dari ancaman predator.</p>
+            </div>
+        </div>
+
+        <div class="action-area">
+            <a href="https://whatsapp.com/channel/0029Vb7Oqeb7Noa3WETr5D0N" target="_blank" class="btn btn-wa">
+                <i class="fab fa-whatsapp"></i> Gabung Saluran K.P.P.S
+            </a>
+
+            <p class="social-label">Owner / Media Partner:</p>
+            
+            <a href="https://www.tiktok.com/@beatzz08" target="_blank" class="btn btn-tiktok">
+                <i class="fab fa-tiktok"></i> TikTok Nazmi: beatzz08
+            </a>
+        </div>
+    </div>
+ 
+</body>
+</html>
